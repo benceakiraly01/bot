@@ -1,0 +1,15 @@
+const command = require ('discord.js-commando');
+const Discord =require('discod.js');
+var bot = new command.Commando.Client
+    disableEveryone : true,
+    UnknownCommandResponse : false
+});
+const TOKEN = "lWRrDYpTc0T8R-MD_MM7FlrFPa0hljwa"
+
+
+bot on('message˙, message => {
+       if (message.content.includes("szia bot")
+        message.channel.send("Szia!") 
+        }
+});
+bot.login TOKEN
